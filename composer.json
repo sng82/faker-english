@@ -1,21 +1,19 @@
 {
     "name": "breda/faker-provider-english-words",
-    "description": "A Faker provider for English words.",
+    "description": "modernisation of breda/faker-provider-english-words",
     "keywords": ["php", "faker", "fixtures", "data"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bouchaala Reda",
-            "email": "bouchaala.reda@gmail.com",
-            "homepage": "https://breda.github.io/"
+            "name": "sng82"
         }
     ],
     "autoload": {
-        "psr-4": { "BReda\\Faker\\": "src/Faker" }
+        "psr-4": { "sng82\\Faker\\": "src/Faker" }
     },
     "require": {
         "php": "^7.0|^8.0",
-        "fakerphp/faker": "^1.9.1",
+        "fakerphp/faker": "^1.9.1"
     }
 }
