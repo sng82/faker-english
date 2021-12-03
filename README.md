@@ -10,7 +10,7 @@ This provider does just one thing: It extends the default Lorem provider, and ch
 
 #### Install
 ```shell
-$ composer require --dev breda/faker-provider-english-words
+$ composer require --dev sng82/faker-english
 ```
 
 #### Usage
@@ -19,7 +19,7 @@ $ composer require --dev breda/faker-provider-english-words
 // Create faker
 $faker = Faker\Factory::create();
 // Just make sure the default Lorem provider is not added after this. 
-$faker->addProvider(new BReda\Faker\Provider\EnglishWords($faker));
+$faker->addProvider(new sng82\Faker\Provider\EnglishWords($faker));
 ```
 
 ---
