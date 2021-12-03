@@ -15,7 +15,7 @@
         "psr-4": { "BReda\\Faker\\": "src/Faker" }
     },
     "require": {
-        "php": "^7.0",
+        "php": "^7.0|^8.0",
         "fzaninotto/faker": "^1.6"
     }
 }
